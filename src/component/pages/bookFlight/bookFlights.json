@@ -1,0 +1,69 @@
+[
+  {
+    "id": "1650514842689",
+    "all": "all",
+    "name": "IndiGo",
+    "sheet": "Al-1",
+    "start": "5:35",
+    "end": "10:50",
+    "price": "INR4489"
+  },
+  {
+    "id": "1651514842790",
+    "all": "all",
+    "name": "IndiGo",
+    "sheet": "Al-2",
+    "start": "6:35",
+    "end": "1:30",
+    "price": "INR4489"
+  },
+  {
+    "id": "1652514842891",
+    "all": "all",
+    "name": "IndiGo",
+    "sheet": "Al-3",
+    "start": "1:00",
+    "end": "10:30",
+    "price": "INR4864.89"
+  },
+  {
+    "all": "all",
+    "name": "Vistara, IndiGo",
+    "sheet": "Al-4",
+    "start": "3:25",
+    "end": "10:50",
+    "price": "INR9088.57"
+  },
+  {
+    "all": "all",
+    "name": "Air India",
+    "sheet": "Al-5",
+    "start": "8:55",
+    "end": "7:10",
+    "price": "INR9837.71"
+  },
+  {
+    "all": "all",
+    "name": "Vistara",
+    "sheet": "Al-6",
+    "start": "8:32",
+    "end": "8:35",
+    "price": "INR9864.89"
+  },
+  {
+    "all": "all",
+    "name": "Vistara",
+    "sheet": "Al-7",
+    "start": "8:05",
+    "end": "5:05",
+    "price": "INR9800"
+  },
+  {
+    "all": "all",
+    "name": "Air India",
+    "sheet": "Al-8",
+    "start": "1:05",
+    "end": "11:40",
+    "price": "INR14264.80"
+  }
+]

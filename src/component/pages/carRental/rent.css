@@ -1,0 +1,119 @@
+.car{
+  width: 100%;
+}
+.carSearch{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.idealCar{
+  padding: 5px 12px;
+}
+.idealCar input{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 70px;
+  font-size: 1.1rem;
+}
+.idealCar button{
+  padding: 8px 30px;
+  margin-left: 7.7rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: white ;
+  background-color: rgb(0, 123, 255);
+}
+.suplierName{
+  font-size: 1.6rem;
+  margin-top: 2.6rem;
+  margin-bottom: -0.2rem;
+}
+.suplier input{
+  margin-left: 1rem;
+  width: 15px;
+  height: 15px;
+}
+.suplier{
+  border-bottom: 1px solid black;
+}
+.map{
+  display: block;
+  margin-top: 1.6rem;
+}
+.map img{
+  width: 92%;
+}
+.carTres {
+  margin-top: 1.6rem;
+  position: sticky;
+  top: -1rem;
+}
+.carTres .firstDiv{
+  background-color: rgb(255, 145, 0);
+}
+.series p{
+  text-align: center;
+}
+.series img{
+  width: 90%;
+  height: 160px;
+}
+.IdbookPrice{
+  margin-top: -1rem;
+}
+.IditemBtn{
+  margin-top: 1.8rem;
+}
+.available{
+  width: 45%;
+}
+.avilCar{
+  margin-top: 1.6rem;
+  border: 1px solid rgb(127, 127, 127);
+}
+.location{
+  margin-left: 3.2rem;
+}
+.location h2{
+  font-size: 1.8rem;
+}
+.series{
+  width: 90%;
+  margin: auto;
+  border-bottom: 1.2px solid black;
+}
+.series .location div p {
+  font-size: 1.25rem;
+}
+.series .location div{
+  display: flex;
+  margin-top: -1rem;
+  margin-bottom: -1.6rem;
+  align-items: center;
+}
+.series{
+  display: flex;
+}
+.priceInclud{
+  padding: 0.1px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detail h2{
+  font-size: 1.7rem;
+}
+.chooseCar{
+  width: 36%;
+}
+.INR{
+  font-size: 1.55rem;
+}
+.chooseCar button{
+  padding: 10px 25px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(0, 128, 255);
+}

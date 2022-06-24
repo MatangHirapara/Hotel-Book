@@ -1,0 +1,70 @@
+.travelPackage{
+  width: 100%;
+  margin-top: 3rem;
+}
+.travel{
+  width: 50%;
+  margin: auto;
+}
+.package ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid blue;
+}
+.package ul li{
+  color: black;
+  background-color: #ebf3ff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 8px 55px;
+}
+.starIcon{
+  font-size: medium;
+}
+.starIcon:hover{
+ background-color : rgb(161, 151, 17);
+}
+.travelTitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title{
+  display: flex;
+  align-items: center;
+}
+.title p{
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.titleBtn{
+  display: flex;
+  align-items: center;
+  color: rgb(0, 149, 255);
+}
+.titleBtn .btn{
+  border: 2px solid rgb(0, 145, 255);
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+.travelImage{
+  display: flex;
+  align-items: center;
+}
+.image img{
+  width: 95%;
+  height: 160px;
+}
+ img{
+  width: 1200px;
+  height: 330px;
+}
+.travelFacility{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.facility {
+  text-align: center;
+}

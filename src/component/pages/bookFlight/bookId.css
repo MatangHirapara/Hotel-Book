@@ -1,0 +1,44 @@
+.idItem{
+  margin: auto;
+  
+}
+.mainId{
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.idDetail{
+  border-right: 1px solid black;
+  width: 60%;
+}
+.idDetail div p{
+  margin-left: 1.8rem;
+}
+.idDetail div{
+  display: flex;
+  align-items: center;
+}
+.IdflightName{
+  font-size: 1.7rem;
+  margin-left: 1.5rem;
+}
+.IditemPrice{
+  text-align: end;
+}
+.IditemPrice div p{
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+.IdbookPrice p{
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.IdbookPrice{
+  margin-top: 2.6rem;
+}
+.IditemBtn{
+  margin-top: 2rem;
+}
+.IditemBtn .Idbtn{
+  border: 2px solid rgb(0,115,255);
+}

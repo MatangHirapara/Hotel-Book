@@ -1,0 +1,138 @@
+.mainflight{
+  width: 100%;
+}
+.flightDetail{
+  width: 100%;
+  background-color: rgb(233, 227, 227);
+  margin-top: 1.5rem;
+}
+.detail{
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2.5rem;
+}
+.flightHeadline{
+  border: 1px solid red;
+  background-color: rgb(237, 227, 210);
+}
+.flightHeadline p{
+  padding-left: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+.flightHeadline p span{
+  color: rgb(0, 115, 255);
+  margin-left: 0.4rem;
+  border-bottom: 1.5px solid rgb(0, 115, 255);
+}
+.flightBook{
+  margin-top: 2rem;
+}
+.flightBook .bookTitle{
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.flightBook .destination{
+  font-size: 1rem;
+  margin-top: -1.6rem;
+}
+.flightSelect{
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.flightSelect label{
+  font-size: 1.05rem;
+}
+.flightSelect input{
+  margin-left: 1.2rem;
+  width: 20px;
+  height: 20px;
+}
+.flightSelect select{
+  margin-left: 2rem;
+  border: none;
+  background-color: transparent;
+  width: 180px;
+  font-size: 1rem;
+  border-bottom: 2px solid rgb(0, 115, 255);
+}
+.flightPlace{
+  display: flex;
+  align-items: center;
+  border: 4px solid orange;
+  margin-top: 2rem;
+}
+.flightPlace input{
+  width: 480px;
+  height: 50px;
+  border: none;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.05rem;
+}
+.flightPlace button{
+  padding: 1rem 2.6rem;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  background-color: rgb(0, 136, 255);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.flightImage{
+  width: 80%;
+  margin: auto;
+}
+.flightImage .image{
+  display: flex;
+  margin-top: 2rem;
+}
+.image div{
+  width: 400px;
+  height: 190px;
+  flex-wrap: wrap;
+}
+.image div p{
+  font-size: 1.26rem;
+  margin-top: 0.1rem;
+}
+.image div img{
+  height: 300px;
+  cursor: pointer;
+}
+.imageTitle{
+  margin-top: 2.8rem;
+}
+.imageTitle p{
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+.readMore{
+  width: 100%;
+  margin-top: 12rem;
+  background-color: rgb(225, 226, 228);
+  margin-bottom: 3rem;
+}
+.more{
+  width: 80%;
+  display: flex;
+  padding: 25px;
+  justify-content: space-between;
+  margin: auto;
+}
+.morePart{
+  width: 22%;
+}
+.morePart div p{
+  font-size: 1.3rem;
+  margin-left: 0.5rem;
+}
+.morePart div{
+  display: flex;
+  margin-bottom: -1.8rem;
+  align-items: center;
+}

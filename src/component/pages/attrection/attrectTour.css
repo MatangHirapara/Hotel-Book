@@ -1,0 +1,106 @@
+.attrectTour{
+  width: 100%;
+}
+.attrectStyle{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.attrectPart1 h3{
+  font-size: 1.8rem;
+}
+.Part1Item1 p{
+  font-size: 1.1rem;
+}
+.Part1Item1 input{
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.Part1Item1 div{
+  display: flex;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+.Part1Item1 label{
+  margin-left: 0.6rem;
+  font-size: 0.85rem;
+  color: rgb(115, 115, 115);
+}
+
+.Part1Img{
+  background-image: url("https://raw.githubusercontent.com/geekypradip/images/main/Screenshot%20from%202022-01-16%2020-11-04.png");
+  width: 570px;
+  height: 355px;
+}
+.attrectPart2{
+  margin-top: 1.3rem;
+}
+.Part1map{
+  display: flex;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.attrectPart2 .Part2style{
+  border: 1.3px solid rgb(147, 147, 147);
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Part2Item div img{
+  width: 13vw;
+  height: 20vh;
+}
+.ItemDetail{
+  margin-left: 1rem;
+}
+.ItemCity{
+  font-weight: 400;
+}
+.ItemPlace{
+  font-weight: 700;
+  margin-top: -0.8rem;
+}
+.ItemLocate{
+  font-weight: 400;
+  margin-top: -0.5rem;
+}
+.Part2Item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.Part2Item2{
+  margin-top: 5.6rem;
+  text-align: right;
+  margin-left: 6rem;
+  padding-right: 1rem;
+}
+.Item2tag{
+  font-weight: 400;
+  font-size: 0.94rem;
+  margin-bottom: -1rem;
+}
+.Item2price{
+  font-size: 1rem;
+  font-weight: 800;
+}
+.Item2btn:active{
+  background-color: transparent;
+  color: black;
+  transition: all 0.1s ease-in-out;
+}
+.Item2btn{
+  padding: 8px 25px;
+  cursor: pointer;
+  background-color: rgb(0, 140, 255);
+  border-radius: 3px;
+  color: white;
+  border: 2px solid rgb(0, 140, 255);
+}
