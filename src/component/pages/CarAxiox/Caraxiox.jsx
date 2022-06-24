@@ -10,10 +10,6 @@ const Caraxiox = () => {
           <li>item 3</li>
           <li>item 4</li>
         </ul>
-        <ul>
-          <li>tea</li>
-          <li>coffee</li>
-        </ul>
       </div>
     </>
   )
