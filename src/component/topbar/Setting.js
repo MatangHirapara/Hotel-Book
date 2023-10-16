@@ -21,7 +21,7 @@ export default function Setting() {
   const notify = useSelector((state) => state.notify)
   console.log('notify===>', notify)
   const dispatch = useDispatch()
-  const none = () => {
+  const none = () => { 
     if(notify <= 0){
      return  state.notify = 0
     }
