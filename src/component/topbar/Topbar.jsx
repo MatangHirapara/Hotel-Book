@@ -57,7 +57,7 @@ import HailIcon from '@mui/icons-material/Hail';
               <button className='topbarbtn' >List Your Property</button>
             </div>
             <div>
-              <Avatar style={{color: "blue"}} >M</Avatar>
+              <Avatar style={{color: "blue"}} >L</Avatar>
             </div>
           </div>
         </div>
