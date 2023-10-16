@@ -1,0 +1,164 @@
+.staypage{
+  margin-top: 5rem;
+}
+.staymain{
+  border: 4px solid coral;
+  border-bottom: 10px solid coral;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.state{
+  padding: 5px 20px;
+  border-right: 4px solid coral;
+  display: flex;
+  align-items: center;
+}
+.stack option{
+  color: black;
+}
+
+.state .select{
+  font-size: 1.2rem;
+  display: flex;
+  font-family: 'Sansita', sans-serif;
+  align-items: center;
+  border: none;
+  padding-left: 0.5rem;
+  border-radius: 5px;
+  width: 350px;
+  height: 6vh;
+}
+.select .option{
+  margin-top: 2.5rem;
+  font-size: 1.1rem;
+}
+.select p{
+  font-weight: 100;
+  margin-left: 20px;
+}
+.staywarn{
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 3rem;
+}
+
+.warn{
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  
+  padding-bottom: 0.7rem;
+}
+.warn p{
+  margin-left: 1rem;
+}
+.warn a{
+  margin-left: 0.3rem; 
+}
+.option1{
+  border: 1px solid rgb(214, 211, 211);
+  display: flex;
+  align-items: center ;
+  padding-left: 5px;
+  padding-right: 55px;
+  padding-bottom: 35px;
+}
+.staycar{
+  width: 100%;
+  margin-top: 3rem;
+}
+.carOption{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.option1 div{
+  margin-left: 2rem;
+}
+.option1 div p{
+  font-weight: 700;
+  margin-bottom: -0rem;
+}
+.option1 div span{
+  font-size: 0.8rem;
+}
+.stayjorny{
+  width: 100%;
+  margin-top: 3rem;
+}
+.jorny{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.jorny p{
+  font-size: 1rem;
+  margin-top: 0.1rem;
+}
+.jorny span{
+  margin-right: -20rem;
+  z-index: 999;
+  margin-top: 1rem;
+  font-size: 2.5rem;
+  color: white;
+}
+.jorny img{
+  width: 49%;
+}
+.stayplace{
+  width: 100%;
+  margin-top: 2rem;
+}
+.place{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.place img{
+  width: 32%;
+}
+.staywater{
+  width: 100%;
+  margin-top: 4rem;
+  
+}
+.staywater p{
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-left: 10%;
+}
+.water{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.water img{
+  width: 20%;
+  height: 30vh;
+}
+.water p{
+  margin-left: -25rem;
+  font-size: 1rem;
+  color: white;
+  margin-top: 16rem;
+}
+.staypark{
+  width: 100%;
+  margin-top: 1.5rem;
+}
+.park{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.park img{
+  width: 30%;
+  height: 30vh;
+}

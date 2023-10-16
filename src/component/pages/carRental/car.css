@@ -1,0 +1,150 @@
+.carRantal{
+  width: 100%;
+}
+.carPart{
+  width: 100%;
+  background-color: rgb(246, 222, 205);
+}
+.partUnder{
+  width: 80%;
+  padding: 15px;
+  margin: auto;
+}
+.firstLine{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.firstLine p{
+  font-size: 1.33rem;
+  margin-left: 0.5rem;
+}
+.secondLine{
+  margin-top: -0.5rem;
+}
+.firstLine{
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.tripForm{
+  width: 100%;
+  background-color: rgb(218, 217, 216);
+}
+.form{
+  width: 80%;
+  padding: 45px;
+  margin: auto;
+}
+.formLine p{
+  margin-top: 0.1rem;
+  margin-bottom: -0.1rem;
+}
+.radioInput div {
+  display: flex;
+  align-items: center;
+}
+.radioInput{
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  width: 32%;
+  justify-content: space-between;
+}
+.radioInput input{
+  width: 29px;
+  height: 20px;
+}
+.radioInput label{
+  font-size: 1.06rem;
+}
+.trippay{
+  width: 80%;
+  margin: auto;
+}
+.trippay p{
+  font-size: 1.6rem;
+}
+.trippay div{
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+.trippay div img{
+  width: 105px;
+  height: 55px;
+}
+.tripplace{
+  width: 80%;
+  margin: auto;
+}
+.tripplace div{
+  display: flex;
+}
+.tripplace div div div p{
+  font-size: 1.5rem;
+  color: rgb(108, 108, 108);
+}
+.tripplace div div div{
+  height: 5vh;
+  padding: 10px;
+  margin-top: -1.9rem;
+}
+.tripplace p {
+  font-size: 1.5rem;
+}
+.tripplace div div {
+  margin-left: 2rem;
+  height: 39vh;
+  display: block;
+  background-color: rgb(223, 223, 223);
+}
+.tripplace div div img:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.tripplace div div img{
+  width: 330px;
+  transition: transform .2s;
+  cursor: pointer;
+  height: 215px;
+}
+.footer{
+  margin-top: 3rem;
+  margin-bottom: 1.6rem;
+  background-color: rgb(244, 232, 215);
+}
+.service{
+  padding-top: 1.2rem;
+}
+.firstName{
+  font-size: 1.55rem;
+}
+.secondLine{
+  margin-top: -1.2rem;
+  font-weight: 300;
+}
+.mainFoot{
+  width: 80%;
+  margin: auto;
+}
+.review{
+  width: 75%;
+  display: flex;
+  padding-bottom: 1.6rem;
+  justify-content: space-between;
+}
+.media{
+  display: flex;
+  align-items: center;
+}
+.mediaTitle {
+  margin-left: 1.2rem;
+}
+.mediaTitle .title{
+  font-size: 1.65rem;
+}
+.mediaName{
+  margin-top: -1.5rem;
+}

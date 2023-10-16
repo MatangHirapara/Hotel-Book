@@ -1,0 +1,24 @@
+.inbox{
+  width: 100%;
+  background-color: rgb(239, 214, 202);
+}
+.underInbox{
+  padding: 50px;
+  width: 80%;
+  margin: auto;
+}
+.inboxTable{
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+}
+
+tr, th{
+  font-size: 1.4rem;
+}
+tr, td{
+  padding-top: 0.4rem;
+  text-align: left;
+  font-size: 0.9rem;
+  border-bottom: 1px solid rgb(85, 84, 84);
+}

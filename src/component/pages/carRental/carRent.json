@@ -1,0 +1,114 @@
+[
+  {
+    "user": "1650514842689",
+    "all": "all",
+    "id": "1",
+    "title":"Alamo",
+    "millage": "300 miles per rental",
+    "price": "5000.26"
+  },
+  {
+    "user": "1651514842730",
+    "all": "all",
+    "id": "2",
+    "title":"Alamo",
+    "millage": "250 miles per rental",
+    "price": "4000"
+  },
+  {
+    "user": "1652514842831",
+    "all": "all",
+    "id": "3",
+    "title":"Alamo",
+    "millage": "350 miles per rental",
+    "price": "8000.36"
+  },
+  {
+    "user": "1653514842932",
+    "all": "all",
+    "id": "4",
+    "title":"Avis",
+    "millage": "370 miles per rental",
+    "price": "7060.26"
+  },
+  {
+    "user": "1654514843033",
+    "all": "all",
+    "id": "5",
+    "title":"Avis",
+    "millage": "200 miles per rental",
+    "price": "800.26"
+  },
+  {
+    "user": "1655514843134",
+    "all": "all",
+    "id": "6",
+    "title":"Avis",
+    "millage": "250 miles per rental",
+    "price": "2000"
+  },
+  {
+    "user": "1656514843235",
+    "all": "all",
+    "id": "7",
+    "title":"Budget",
+    "millage": "300 miles per rental",
+    "price": "4900"
+  },
+  {
+    "user": "1657514843336",
+    "all": "all",
+    "id": "8",
+    "title":"Budget",
+    "millage": "370 miles per rental",
+    "price": "6080.20"
+  },
+  {
+    "user": "1658514843437",
+    "all": "all",
+    "id": "9",
+    "title":"Budget",
+    "millage": "250 miles per rental",
+    "price": "3600"
+  },
+  {
+    "user": "1659514843538",
+    "all": "all",
+    "id": "10",
+    "title":"City Rental",
+    "millage": "390 miles per rental",
+    "price": "7100.88"
+  },
+  {
+    "user": "1660514843639",
+    "all": "all",
+    "id": "11",
+    "title":"City Rental",
+    "millage": "300 miles per rental",
+    "price": "6200.00"
+  },
+  {
+    "user": "1661514843740",
+    "all": "all",
+    "id": "12",
+    "title":"City Rental",
+    "millage": "350 miles per rental",
+    "price": "5200.00"
+  },
+  {
+    "user": "1662514843841",
+    "all": "all",
+    "id": "13",
+    "title":"Van Rental",
+    "millage": "300 miles per rental",
+    "price": "3200.00"
+  },
+  {
+    "user": "1663514843942",
+    "all": "all",
+    "id": "14",
+    "title":"Van Rental",
+    "millage": "300 miles per rental",
+    "price": "6000.00"
+  }
+]

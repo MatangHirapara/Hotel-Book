@@ -1,0 +1,51 @@
+.counter{
+  width: 22%;
+  box-shadow: 5px 5px 15px black;
+  border-radius: 10px;
+  margin-left: 50%;
+  margin-top: -0.2%;
+  z-index: 999;
+}
+#mainDiv{
+  display: none;
+}
+.fation{
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid  rgb(214, 206, 206);
+  margin-top: -5rem;
+  margin-left: 60%;
+}
+
+.counterName{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+p{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.count{
+  display: flex;
+  justify-content: space-around;
+}
+.count h3{
+  margin-top: -0.5rem;
+  margin-right: 1rem;
+}
+.count button{
+  width: 40px;
+  height: 40px;
+  margin-right: 18px;
+  font-size: 2rem;
+  font-weight: 100;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #0077ff;
+  border-radius: 7px;
+  color: rgb(0, 119, 255);
+}

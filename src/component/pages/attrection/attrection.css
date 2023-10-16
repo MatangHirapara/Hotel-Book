@@ -1,0 +1,123 @@
+.mainAttrect{
+  width: 100%;
+}
+.attrectPart{
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+}
+.part1{
+  width: 60%;
+  margin: auto;
+  padding: 60px;
+}
+.part1Title{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.part1Write{
+  margin-top: -1.2rem;
+  font-weight: 400;
+  color: rgb(103, 101, 101);
+}
+.searchBar{
+  width: 850px;
+  padding: 12px 12px;
+  border: 3px solid orange;
+  font-size: 1.2rem;
+}
+.inputdiv{
+  display: flex;
+  align-items: center;
+}
+.part1Btn{
+  padding: 14.9px 20px;
+  cursor: pointer;
+  background-color: rgb(0, 115, 255);
+  border: 3px solid orange;
+  border-radius: 3px;
+  color: white;
+  font-weight: 100;
+  margin-left: -0.5rem;
+  font-size: 1rem;
+}
+.destwidth{
+  width: 80%;
+  margin: auto;
+  border-bottom: 1.4px solid black;
+  padding-bottom: 2rem;
+}
+
+.destTitle p{
+  font-size: 1.7rem;
+}
+.destImage{
+  display: flex;
+  justify-content: space-between;
+}
+.destImage img{
+  width: 25%;
+  height: 25vh;
+  cursor: pointer;
+}
+.destDetail div{ 
+  padding-bottom: 0.5rem;
+}
+.destDetail{
+  width: 80%;
+  margin: auto;
+  border-bottom: 1.4px solid black;
+}
+.detailPart{
+  display: flex;
+  justify-content: space-between;
+}
+.firstdetail{
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.firstdetail div .detailTitle{
+  font-size: 1.2rem;
+}
+.firstdetail div {
+  margin-left: 0.8rem;
+}
+.firstdetail div p{
+  font-size: 0.78rem;
+  margin-top: 0.3rem;
+  margin-bottom: -0.1rem;
+}
+
+.destContry{
+  width: 80%;
+  margin: auto;
+  border-bottom: 1.4px solid black;
+}
+.contryName {
+  width: 65%;
+}
+.contryName ul{
+  display: flex;
+  justify-content: space-between;
+}
+.contryName ul li:hover{
+  background-color: rgb(210, 210, 210);
+}
+.contryName ul li{
+  color: black;
+  cursor: pointer;
+  padding: 5px 5px;
+}
+.contryImg div img{
+  width: 16.5%;
+  height: 16vh;
+}
+.contryImg {
+  width: 80%;
+  margin: auto;
+}
+.contryImg div{
+  display: flex;
+  padding-top: 2rem;
+  justify-content: space-between;
+}

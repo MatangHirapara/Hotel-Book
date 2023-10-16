@@ -1,0 +1,137 @@
+.bookFlight{
+  width: 100%;
+}
+.bookpart{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.part-1 {
+  width: 30%;
+}
+.part-1 div label{
+  margin-left: 0.7rem;
+}
+.part-1 p{
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.part-2 {
+  width: 75%;
+}
+.part-2 .item{
+  border: 1.5px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+.itemDetail p{
+  margin-left: 1.5rem;
+}
+.itemDetail{
+  border-right: 1px solid black;
+  width: 55%;
+}
+.itemDetail div{
+  display: flex;
+  align-items: center;
+}
+.flightName{
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.itemPrice{
+  padding-right: 1.5rem;
+}
+.itemPrice div p{
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+.itemPrice div{
+  text-align: end;
+}
+.bookPrice  {
+  margin-top: 1.9rem;
+}
+.bookPrice p {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.itemBtn{
+  margin-top: 1.5rem;
+}
+.itemBtn .btn{
+  border: 2px solid rgb(0, 153, 255);
+}
+.payProce{
+  border: 1px solid rgb(205, 56, 45);
+  padding: 15px;
+  width: 60%;
+}
+.payProce .payTotal{
+  text-align: center;
+  font-size: 1.6rem;
+  color: grey;
+}
+.checkProce{
+  font-size: 1.8rem;
+  padding-left: 10px;
+}
+.chooseProce{
+  font-size: 1.5rem;
+  padding-left: 10px;
+  margin-top: -1rem;
+}
+.payCard{
+  display: flex;
+  justify-content: space-around;
+}
+.payCard div button img{
+  width: 50px;
+  cursor: pointer;
+  height: 30px;
+}
+.payHolder{
+  border: 2px solid blue;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+.payHolder p{
+  font-size: 0.66rem;
+  margin-left: 0.6rem;
+}
+.payHolder img{
+  width: 50px;
+  height: 30px;
+}
+.payTitle{
+  font-size: 1.4rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0.1rem;
+}
+.cardName{
+  font-size: 0.8rem;
+}
+.payBtn{
+  width: 570px;
+  margin-top: 1rem;
+  background-color: rgb(0, 102, 255);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  height: 40px;
+  font-size: 0.9rem;
+}
+.airLogo{
+  width: 350px;
+  margin-top: 3rem;
+}
+.confirm{
+  font-size: 1.3rem;
+  display: flex;
+  text-align: center;
+}
