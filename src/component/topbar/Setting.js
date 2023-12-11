@@ -1,14 +1,11 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
-import Button from '@mui/material/Button';
 import List from '@mui/material/List';
-import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import "./topbar.css";
 import { useSelector } from 'react-redux';
@@ -20,19 +17,18 @@ import { useDispatch } from 'react-redux';
 export default function Setting() {
   const notify = useSelector((state) => state.notify)
   console.log('notify===>', notify)
+
   const dispatch = useDispatch()
   const none = () => {
-    if(notify <= 0){
-     return  state.notify = 0
+    if (notify <= 0) {
+      return state.notify = 0
     }
-    else{
+    else {
       state.notify -= 1
     }
-      dispatch(decnotify())
+    dispatch(decnotify())
   }
-  const [state, setState] = React.useState({
-    
-  });
+  const [state, setState] = React.useState({});
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
@@ -50,27 +46,13 @@ export default function Setting() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
 
-
-      {/* <List>
-        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
-              {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
-      </List> */}
-      {/* <Divider /> */}
-
-      
       <List>
         {['Inbox'].map((text, index) => (
           <ListItem button key={text}>
             <ListItemIcon >
-              <Badge  color="error"  >
+              <Badge color="error"  >
                 <Link to="/email" onClick={none} >
-                  <InboxIcon /> 
+                  <InboxIcon />
                 </Link>
               </Badge>
             </ListItemIcon>
@@ -83,18 +65,18 @@ export default function Setting() {
 
   return (
     <div>
-          <Badge badgeContent={notify} color="error">
-            <NotificationsIcon onClick={toggleDrawer("right", true)}/>
-          </Badge>
-          <Drawer
-            anchor={"right"}
-            open={state["right"]}
-            onClose={toggleDrawer("right", false)}
-          >
-            {list()}
-          </Drawer>
-        
-      
+      <Badge badgeContent={notify} color="error">
+        <NotificationsIcon onClick={toggleDrawer("right", true)} />
+      </Badge>
+      <Drawer
+        anchor={"right"}
+        open={state["right"]}
+        onClose={toggleDrawer("right", false)}
+      >
+        {list()}
+      </Drawer>
+
+
     </div>
   );
 }

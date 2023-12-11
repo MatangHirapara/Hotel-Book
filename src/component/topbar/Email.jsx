@@ -1,28 +1,36 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./email.css"
 import { useSelector } from 'react-redux';
 
 const Email = () => {
-  const email = useSelector((state) =>  state.email.selectedToor)
-  console.log("email", email)
+  const [emailStore, setEmailStore] = useState([])
+  const email = useSelector((state) => state.email.selectedToor)
+  
+  useEffect(() => {
+    setEmailStore([email, ...emailStore])
+  }, [])
   return (
     <>
       <div className='inbox' >
         <div className='underInbox' >
-            <table className='inboxTable' >
-              <tr>
-                <th>Id.</th>
-                <th>Inbox-Massage</th>
-                <th>Place</th>
-                <th>Price</th>
-              </tr>
-              <tr>
-                <td>{email.id}.</td>
-                <td>'Congratulation' for hotel booked....... {email.title}</td>
-                <td>{email.name}</td>
-                <td>Rs. {email.money}</td>
-              </tr>
-            </table>
+          <table className='inboxTable' >
+            <tr>
+              <th>Id.</th>
+              <th>Inbox-Massage</th>
+              <th>Place</th>
+              <th>Price</th>
+            </tr>
+            {emailStore.map((el) => {
+              return (
+                <tr>
+                  <td>{el.id}.</td>
+                  <td>'Congratulation' for hotel booked....... {el.title}</td>
+                  <td>{el.name}</td>
+                  <td>Rs. {el.money}</td>
+                </tr>
+              )
+            })}
+          </table>
         </div>
       </div>
     </>

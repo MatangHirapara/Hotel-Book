@@ -132,7 +132,7 @@ const BookFlight = () => {
             <label for="css">Oneway</label>
             <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
             <label for="javascript">Multi-city</label>
-            <select >
+            <select>
               <option value="Economy">Economy</option>
               <option value="Economy">Business</option>
               <option value="Economy">First-class</option>
@@ -154,7 +154,6 @@ const BookFlight = () => {
                 shrink: true,
               }}
             />
-
             <button>Search</button>
           </div>
         </div>
