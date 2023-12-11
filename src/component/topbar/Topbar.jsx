@@ -15,7 +15,6 @@ import { Box, IconButton, Menu, MenuItem, Tooltip, Typography } from '@mui/mater
 const settings = ['Profile', 'Logout'];
 const Topbar = ({props}) => {
   const navigate = useNavigate();
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const stay = (key) => {
@@ -25,9 +24,7 @@ const Topbar = ({props}) => {
   const handleOpenUserMenu = (e) => { 
     setAnchorElUser(e.currentTarget);
   };
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
+
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
   };
@@ -37,6 +34,7 @@ const Topbar = ({props}) => {
     props.removeDatas();
     localStorage.removeItem("select_tab");
   }
+  
   return (
     <>
       <div className='topbar' id='bgColor'>
@@ -62,7 +60,7 @@ const Topbar = ({props}) => {
               <Box sx={{ flexGrow: 0 }}>
                 <Tooltip title="Open settings">
                   <IconButton onClick={(event) => handleOpenUserMenu(event)} sx={{ p: 0 }}>
-                    <Avatar className='avtarText' sx={{textTransform: 'capitalize'}} alt={props.tokens.username} src="/static/images/avatar/2.jpg" />
+                    <Avatar className='avtarText' sx={{textTransform: 'capitalize'}} alt={props.tokens.username} src='image.jpg' />
                   </IconButton>
                 </Tooltip>
                 <Menu

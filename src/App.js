@@ -14,7 +14,6 @@ function App() {
 
   
   const [token, setToken] = useState(getToken())
-  console.log('token======>', token)
   
   const saveToken = (userToken) => {
     localStorage.setItem("data", JSON.stringify(userToken));

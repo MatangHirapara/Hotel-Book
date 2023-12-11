@@ -16,7 +16,6 @@ import { useDispatch } from 'react-redux';
 
 export default function Setting() {
   const notify = useSelector((state) => state.notify)
-  console.log('notify===>', notify)
 
   const dispatch = useDispatch()
   const none = () => { 
