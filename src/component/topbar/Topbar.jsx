@@ -22,7 +22,7 @@ const Topbar = ({props}) => {
     navigate(key)
   }
 
-  const handleOpenUserMenu = (e) => {
+  const handleOpenUserMenu = (e) => { 
     setAnchorElUser(e.currentTarget);
   };
   const handleCloseNavMenu = () => {

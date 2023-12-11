@@ -85,7 +85,6 @@ const Login = ({setToken}) => {
               <Box textAlign="center" >
                 <Button type='submit' disabled={((username === undefined || "") || (password === undefined || "")) ? true : false} variant='contained' sx={{ mt: 5, mb: 2, px: 5 }} >Login</Button>
               </Box>
-              {/* {error.status ? <Alert severity={error.type} >{error.msg}</Alert> : ""} */}
             </Box>
           </Card>
         </Grid>

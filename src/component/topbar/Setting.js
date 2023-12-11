@@ -19,9 +19,9 @@ export default function Setting() {
   console.log('notify===>', notify)
 
   const dispatch = useDispatch()
-  const none = () => {
-    if (notify <= 0) {
-      return state.notify = 0
+  const none = () => { 
+    if(notify <= 0){
+     return  state.notify = 0
     }
     else {
       state.notify -= 1
