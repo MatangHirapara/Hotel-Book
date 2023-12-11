@@ -1,10 +1,10 @@
 
 export const incnotify = () => {
-  return { type: "INCREMENTION" }
+  return { type: "INCREMENTAL" }
 }
 
 export const decnotify = () => {
-  return { type: "DECREMENTION" }
+  return { type: "DECREMENTAL" }
 }
 
 

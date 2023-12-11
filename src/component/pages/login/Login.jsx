@@ -40,7 +40,7 @@ const Login = ({setToken}) => {
   const [username, setUserName] = useState(undefined);
   const [password, setPassword] = useState(undefined);
 
-  console.log('userName===>', username)
+  console.log('userName====>', username)
   console.log('password====>', password)
 
   const handleSubmit = async e => {

@@ -1,9 +1,9 @@
 const notify = (state = 0, action) => {
   
   switch(action.type){
-    case "INCREMENTION":
+    case "INCREMENTAL":
       return state + 1; 
-    case "DECREMENTION":
+    case "DECREMENTAL":
       return state - 1;
     default:
       return state;

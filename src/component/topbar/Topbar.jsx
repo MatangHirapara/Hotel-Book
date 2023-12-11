@@ -18,17 +18,8 @@ const Topbar = ({props}) => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
-  const stay = () => {
-    navigate("/")
-  }
-  const flight = () => {
-    navigate("/flight")
-  }
-  const car = () => {
-    navigate("/car")
-  }
-  const attrect = () => {
-    navigate("/attrection")
+  const stay = (key) => {
+    navigate(key)
   }
 
   const handleOpenUserMenu = (e) => { 
@@ -41,7 +32,6 @@ const Topbar = ({props}) => {
     setAnchorElUser(null);
   };
 
-  console.log('Topbar---Props======>', props.tokens)
   const logout = () => {
     navigate('/')
     props.removeDatas();
@@ -104,11 +94,11 @@ const Topbar = ({props}) => {
         <div className='topbarWrapper'>
           <div className='topbottom'>
             <ul>
-              <li><HotelIcon /><a onClick={stay} href='' >Stays</a></li>
-              <li><FlightTakeoffIcon /><a onClick={flight} href='' >Flight</a></li>
+              <li><HotelIcon /><a onClick={()=>stay('/')} href='' >Stays</a></li>
+              <li><FlightTakeoffIcon /><a onClick={()=>stay('/flight')} href='' >Flight</a></li>
               <li><LuggageIcon /><a href='' >Flight + Hotel</a></li>
-              <li><DirectionsCarIcon /><a onClick={car} href='' >Car rental</a></li>
-              <li><AttractionsIcon /><a onClick={attrect} href='' >Attrection</a></li>
+              <li><DirectionsCarIcon /><a onClick={()=>stay('/car')} href='' >Car rental</a></li>
+              <li><AttractionsIcon /><a onClick={()=>stay('/attrection')} href='' >Attrection</a></li>
               <li><HailIcon /><a href='' >Airpot Taxis</a></li>
             </ul>
           </div>

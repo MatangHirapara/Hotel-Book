@@ -1,5 +1,4 @@
 import React from "react"
-import { useParams } from "react-router-dom"
 import toorData from "./toorData.json"
 
 // const data = toorData.find((e) => {
