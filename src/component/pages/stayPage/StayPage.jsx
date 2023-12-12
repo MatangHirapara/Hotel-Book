@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import { incNum, decNum } from '../../../redux/adults/action';
 import { inccount, deccount } from '../../../redux/child/childaction';
@@ -7,7 +7,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate } from "react-router-dom";
 import CloseIcon from '@mui/icons-material/Close';
 import "../../counter/count.css"
-import { Button } from "@mui/material";
+import { AppBar, Button, Tab, Tabs } from "@mui/material";
 
 import jorny_1 from "../../images/jorny-1.png"
 import jorny_2 from "../../images/jorny-2.png"

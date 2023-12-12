@@ -67,10 +67,28 @@
 .topbarbtn:active{
   border-color: green;
 }
+.topbottom{
+  width: 85%;
+}
 .topbottom ul{
   display: flex;
   margin-left: -2.5rem;
   margin-top: 47px;
+}
+.topbottom .AppBarTab{
+  background-color: transparent;
+  box-shadow: none;
+}
+.AppBarTab .MuiTabs-indicator{
+  background-color: white;
+  width: 9rem !important;
+}
+.AppBarTab .MuiTabs-flexContainer{
+  display: flex;
+  align-items: center;
+}
+.AppBarTab .TabLabelName{
+  font-size: 0.8rem;
 }
 ul li{
   list-style: none;
