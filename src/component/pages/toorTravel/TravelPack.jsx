@@ -37,7 +37,6 @@ const TravelPack = () => {
     const data = toorData.find((e) => {
       return e.id === id
     })
-    console.log('data', data)
     setRecord(data)
   }, [id])
 

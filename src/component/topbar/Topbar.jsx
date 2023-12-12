@@ -56,7 +56,6 @@ const Topbar = ({props}) => {
               <button className='topbarbtn' >List Your Property</button>
             </div>
             <div>
-              {/* <Avatar style={{ color: "blue" }} >M</Avatar> */}
               <Box sx={{ flexGrow: 0 }}>
                 <Tooltip title="Open settings">
                   <IconButton onClick={(event) => handleOpenUserMenu(event)} sx={{ p: 0 }}>

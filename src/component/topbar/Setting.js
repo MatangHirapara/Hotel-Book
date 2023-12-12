@@ -10,17 +10,20 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import "./topbar.css";
 import { useSelector } from 'react-redux';
 import Badge from '@mui/material/Badge';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { decnotify } from '../../redux/notify/notifyaction';
 import { useDispatch } from 'react-redux';
+import { Button } from '@mui/material';
 
 export default function Setting() {
   const notify = useSelector((state) => state.notify)
+  const navigate = useNavigate()
 
   const dispatch = useDispatch()
-  const none = () => { 
-    if(notify <= 0){
-     return  state.notify = 0
+  const none = () => {
+    navigate('/email')
+    if (notify <= 0) {
+      return state.notify = 0
     }
     else {
       state.notify -= 1
@@ -38,28 +41,28 @@ export default function Setting() {
   };
 
   const list = (anchor) => (
-    <Box
-      sx={{ width: anchor === 'right' || anchor === 'left' ? 'auto' : 250 }}
-      role="presentation"
-      onClick={toggleDrawer(anchor, false)}
-      onKeyDown={toggleDrawer(anchor, false)}
-    >
+    <Button>
+      <Box
+        sx={{ width: anchor === 'right' || anchor === 'left' ? 'auto' : 250 }}
+        role="presentation"
+        onClick={toggleDrawer(anchor, false)}
+        onKeyDown={toggleDrawer(anchor, false)}
+      >
 
-      <List>
-        {['Inbox'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon >
-              <Badge color="error"  >
-                <Link to="/email" onClick={none} >
+        <List>
+          {['Inbox'].map((text, index) => (
+            <ListItem key={index} onClick={none}>
+              <ListItemIcon >
+                <Badge color="error"  >
                   <InboxIcon />
-                </Link>
-              </Badge>
-            </ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
-      </List>
-    </Box>
+                </Badge>
+              </ListItemIcon>
+              <ListItemText primary={text} sx={{ listStyleType: 'none', color: 'black' }} />
+            </ListItem>
+          ))}
+        </List>
+      </Box>
+    </Button>
   );
 
   return (
